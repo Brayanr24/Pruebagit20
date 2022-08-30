@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Ingrese nombre"> <br>
+        <label for="clave">Clave:</label>
+        <input type="password" name="clave" id="clave" placeholder="Ingrese clave"> <br>
+        <input type="submit" name="submit" id="submit" value="Enviar"> 
+        <input type="reset" name="reset" id="reset" value="Limpiar">
+        <hr>
+        <h3>Estado civil:</h3> 
+        <label for="soltero">Soltero</label>
+        <input type="radio" name="estadoC" id="soltero" value="1" checked>  <!--checked me marca por defecto-->
+        <label for="casado">Casado</label>
+        <input type="radio" name="estadoC" id="casado" value="2">
+        <label for="divor">Divorciado</label>
+        <input type="radio" name="estadoC" id="divor" value="3">
+        <hr>
+        <!-- tipos de botones  -->
+        <h3>Seleccione los lenguajes que domina</h3>
+        <!-- Checkbox -->
+        <input type="checkbox" name="leng1">Java
+        <input type="checkbox" name="leng2">Python
+        <input type="checkbox" name="leng3">JavaScript 
+        <hr>
+        <!-- CAJA DE SELECCIÓN (SELECT) sencillo -->
+        <h3>Seleccione la ciudad de trabajo</h3>
+        <select name="ciudad" id="ciudad">
+            <option value="1">Bogotá</option>
+            <option value="2">Medellin</option>
+            <option value="3">Cali</option>
+            <option value="4">Barranquilla</option>
+            <option value="5">Pereira</option>
+        </select>
+
+        <!-- Multimple (funciona presionando control)-->
+        <h3>Seleccione las ciudades en donde ha trabajo</h3>
+        <select name="ciudad" id="ciudad" multiple size="3">
+            <option value="1">Bogotá</option>
+            <option value="2">Medellin</option>
+            <option value="3">Cali</option>
+            <option value="4">Barranquilla</option>
+            <option value="5">Pereira</option>
+            <option value="6">Bucaramanga</option>
+        </select>
+    </form>
+</body>
+</html>

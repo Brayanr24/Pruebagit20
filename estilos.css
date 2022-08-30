@@ -1,0 +1,27 @@
+body{   
+    color: rebeccapurple;
+}
+h2,h3 {
+    color: lightcoral;
+    background-color: lightgray;
+    font-size: 40px;
+    font-family: fantasy;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+/* ESTILOS A TRAVEZ DE ID */
+#head{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    color: aqua;
+    background-color: lawngreen;
+}
+/* POR MEDIO DE CLASES O NOMBRE GENERICO */
+.resaltar{
+    color: black;
+    background-color: yellow;
+    font-style: italic;
+}
